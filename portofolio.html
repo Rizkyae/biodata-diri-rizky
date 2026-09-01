@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio — M Miftahul Rizky A</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="editor" role="main" aria-label="Halaman portofolio dalam bentuk kode">
+
+        <div class="titlebar">
+            <div class="dots" aria-hidden="true">
+                <span class="dot dot-a"></span>
+                <span class="dot dot-b"></span>
+                <span class="dot dot-c"></span>
+            </div>
+            <nav class="tabs" aria-label="Navigasi halaman">
+                <a href="index.html" class="tab">profile.js</a>
+                <a href="portofolio.html" class="tab active">portfolio.js</a>
+                <a href="kontak.html" class="tab">contact.js</a>
+                <a href="formulir.html" class="tab">form.js</a>
+            </nav>
+            <span class="filestatus" aria-hidden="true">●</span>
+        </div>
+
+        <div class="editor-body">
+
+            <p class="line comment">
+                <span class="token-comment">// Proyek dari perkuliahan</span>
+            </p>
+
+            <p class="line">
+                <span class="keyword">const</span> <span class="variable">projects</span> <span class="punct">= [</span>
+            </p>
+
+            <p class="line indent">
+                <span class="punct">{</span> <span class="key">title</span><span class="punct">:</span> <span class="string">"Nyawijiroso"</span><span class="punct">,</span> <span class="key">stack</span><span class="punct">:</span> <span class="string">"WordPress"</span> <span class="punct">}</span>
+            </p>
+
+            <p class="line">
+                <span class="punct">];</span>
+            </p>
+
+            <p class="line blank" aria-hidden="true"></p>
+
+            <p class="line call">
+                <span class="func">render</span><span class="punct">(</span><span class="variable">&lt;ProjectGrid /&gt;</span><span class="punct">);</span>
+                <span class="cursor" aria-hidden="true"></span>
+            </p>
+
+        </div>
+
+        <div class="preview">
+            <div class="preview-header">
+                <span class="preview-label">Live Preview</span>
+            </div>
+            <div class="preview-body project-grid">
+
+                <article class="project-card">
+                    <span class="project-index">01</span>
+                    <h3 class="project-title">Nyawijiroso</h3>
+                    <p class="project-desc">Website WordPress yang saya buat untuk tugas mata kuliah Pemrograman Berbasis Web Saat Saya Di Semester 2.</p>
+                    <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Website</span>
+                    </div>
+                    <a href="https://nyawijiroso.wordpress.com" target="_blank" rel="noopener" class="project-link">Lihat proyek</a>
+                </article>
+
+            </div>
+        </div>
+
+        <p class="eof">// EOF</p>
+
+    </main>
+
+</body>
+</html>

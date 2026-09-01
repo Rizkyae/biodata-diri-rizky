@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Miftahul Rizky A — Profil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="editor" role="main" aria-label="Kartu profil dalam bentuk kode">
+
+        <div class="titlebar">
+            <div class="dots" aria-hidden="true">
+                <span class="dot dot-a"></span>
+                <span class="dot dot-b"></span>
+                <span class="dot dot-c"></span>
+            </div>
+            <nav class="tabs" aria-label="Navigasi halaman">
+                <a href="index.html" class="tab active">profile.js</a>
+                <a href="portofolio.html" class="tab">portfolio.js</a>
+                <a href="kontak.html" class="tab">contact.js</a>
+                <a href="formulir.html" class="tab">form.js</a>
+            </nav>
+            <span class="filestatus" aria-hidden="true">●</span>
+        </div>
+
+        <div class="editor-body">
+
+            <p class="line comment">
+                <span class="token-comment">// Full Stack Developer &amp; Designer</span>
+            </p>
+
+            <p class="line">
+                <span class="keyword">const</span> <span class="variable">developer</span> <span class="punct">= {</span>
+            </p>
+
+            <p class="line indent">
+                <span class="key">name</span><span class="punct">:</span> <span class="string">"M Miftahul Rizky A"</span><span class="punct">,</span>
+            </p>
+
+            <p class="line indent avatar-line">
+                <span class="key">avatar</span><span class="punct">:</span>
+                <img src="images/foto-profil.jpg" alt="Foto profil M Miftahul Rizky A" class="avatar">
+            </p>
+
+            <p class="line indent">
+                <span class="key">bio</span><span class="punct">:</span>
+                <span class="string string-multiline">"Halo! Saya seorang pengembang web yang berfokus pada pembuatan antarmuka pengguna yang bersih, responsif, dan mudah digunakan."</span><span class="punct">,</span>
+            </p>
+
+            <p class="line indent skills-line">
+                <span class="key">skills</span><span class="punct">: [</span>
+                <span class="skills-list">
+                    <span class="string chip">"HTML"</span><span class="punct">,</span>
+                    <span class="string chip">"CSS"</span><span class="punct">,</span>
+                    <span class="string chip">"JavaScript"</span><span class="punct">,</span>
+                    <span class="string chip">"React"</span>
+                </span>
+                <span class="punct">]</span><span class="punct">,</span>
+            </p>
+
+            <p class="line">
+                <span class="punct">};</span>
+            </p>
+
+            <p class="line blank" aria-hidden="true"></p>
+
+            <p class="line call">
+                <span class="func">render</span><span class="punct">(</span><span class="variable">&lt;Actions /&gt;</span><span class="punct">);</span>
+                <span class="cursor" aria-hidden="true"></span>
+            </p>
+
+        </div>
+
+        <div class="preview">
+            <div class="preview-header">
+                <span class="preview-label">Live Preview</span>
+            </div>
+            <div class="preview-body">
+                <a href="portofolio.html" class="action action-primary">Portofolio</a>
+                <a href="kontak.html" class="action action-secondary">Kontak Saya</a>
+                <a href="formulir.html" class="action action-tertiary">Formulir</a>
+            </div>
+        </div>
+
+        <p class="eof">// EOF</p>
+
+    </main>
+
+</body>
+</html>

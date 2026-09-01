@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak — M Miftahul Rizky A</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="editor" role="main" aria-label="Halaman kontak dalam bentuk kode">
+
+        <div class="titlebar">
+            <div class="dots" aria-hidden="true">
+                <span class="dot dot-a"></span>
+                <span class="dot dot-b"></span>
+                <span class="dot dot-c"></span>
+            </div>
+            <nav class="tabs" aria-label="Navigasi halaman">
+                <a href="index.html" class="tab">profile.js</a>
+                <a href="portofolio.html" class="tab">portfolio.js</a>
+                <a href="kontak.html" class="tab active">contact.js</a>
+                <a href="formulir.html" class="tab">form.js</a>
+            </nav>
+            <span class="filestatus" aria-hidden="true">●</span>
+        </div>
+
+        <div class="editor-body">
+
+            <p class="line comment">
+                <span class="token-comment">// Cara menghubungi saya</span>
+            </p>
+
+            <p class="line">
+                <span class="keyword">const</span> <span class="variable">contact</span> <span class="punct">= {</span>
+            </p>
+
+            <p class="line indent">
+                <span class="key">email</span><span class="punct">:</span> <span class="string">"rizkyamirullah245@email.com"</span><span class="punct">,</span>
+            </p>
+
+            <p class="line indent">
+                <span class="key">phone</span><span class="punct">:</span> <span class="string">"+62 813-5744-1144"</span><span class="punct">,</span>
+            </p>
+
+            <p class="line indent">
+                <span class="key">location</span><span class="punct">:</span> <span class="string">"Bondowoso, Jawa Timur"</span><span class="punct">,</span>
+            </p>
+
+            <p class="line indent skills-line">
+                <span class="key">socials</span><span class="punct">: [</span>
+                <span class="skills-list">
+                    <span class="string chip">"GitHub"</span><span class="punct">,</span>
+                    <span class="string chip">"Instagram"</span>
+                </span>
+                <span class="punct">]</span>
+            </p>
+
+            <p class="line">
+                <span class="punct">};</span>
+            </p>
+
+            <p class="line blank" aria-hidden="true"></p>
+
+            <p class="line call">
+                <span class="func">render</span><span class="punct">(</span><span class="variable">&lt;ContactCard /&gt;</span><span class="punct">);</span>
+                <span class="cursor" aria-hidden="true"></span>
+            </p>
+
+        </div>
+
+        <div class="preview">
+            <div class="preview-header">
+                <span class="preview-label">Live Preview</span>
+            </div>
+            <div class="preview-body contact-grid">
+                <a href="mailto:nama@email.com" class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">rizkyamirullah245@email.com</span>
+                </a>
+                <a href="tel:+628xxxxxxxxx" class="contact-item">
+                    <span class="contact-label">Telepon</span>
+                    <span class="contact-value">+62 813-5744-1144</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/rizkyae</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-item">
+                    <span class="contact-label">Instagram</span>
+                    <span class="contact-value">linkedin.com/in/username</span>
+                </a>
+            </div>
+        </div>
+
+        <p class="eof">// EOF</p>
+
+    </main>
+
+</body>
+</html>
