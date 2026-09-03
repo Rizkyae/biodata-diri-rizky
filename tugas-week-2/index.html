@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Rizki</title>
+    <link rel="stylesheet" href="style.css">
+</head>ss/
+<body>
+    <nav class="navbar">
+        <div class="logo">Portofolio</div>
+        <div class="nav-links">
+            <a href="#profil">Profil</a>
+            <a href="#projects">Proyek</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+
+    <section id="profil" class="section-container">
+        <div class="card">
+            <img src="images/foto-profil.jpg" alt="Foto Profil" class="avatar">
+            <h1>Rizky</h1>
+            <p class="subtitle">Mahasiswa Bisnis Digital & Web Developer</p>
+            <p class="bio">Halo! Saya berfokus pada pengembangan sistem informasi, manajemen e-commerce, dan analisis investasi.</p>
+            <div class="skills">
+                <span class="badge">PHP</span>
+                <span class="badge">HTML/CSS</span>
+                <span class="badge">Python</span>
+                <span class="badge">SQL</span>
+            </div>
+            <div class="links">
+                <a href="https://github.com/rizkyae" target="_blank" class="btn">GitHub</a>
+                <a href="https://instagram.com/rizxjohnpaul77" target="_blank" class="btn">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menampilkan minimal 3 kartu proyek menggunakan CSS Grid[cite: 1] -->
+    <section id="projects" class="section-container">
+        <h2 class="section-title">Proyek Saya</h2>
+        <div class="grid-layout">
+            <div class="project-card">
+                <h3>SIAKAD MINI</h3>
+                <p>Portal akademik mini dengan fitur manajemen mahasiswa dan pencetakan nilai rapor.</p>
+                <a href="#" class="btn btn-outline">Lihat Detail</a>
+            </div>
+            <div class="project-card">
+                <h3>Johnpaul Garage</h3>
+                <p>Platform konsinyasi digital untuk pemasaran kendaraan jarak jauh via media sosial.</p>
+                <a href="#" class="btn btn-outline">Lihat Detail</a>
+            </div>
+            <div class="project-card">
+                <h3>E-Commerce Store</h3>
+                <p>Sistem manajemen inventaris toko online untuk sepatu dan smartphone.</p>
+                <a href="#" class="btn btn-outline">Lihat Detail</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulir kontak dengan validasi HTML5[cite: 1] -->
+    <section id="kontak" class="section-container">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+    </section>
+</body>
+</html>
